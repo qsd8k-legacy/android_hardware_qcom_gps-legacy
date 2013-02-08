@@ -1,3 +1,3 @@
-ifeq ($(BOARD_USES_LEGACY_QCOM),true)
+ifeq ($(TARGET_QCOM_GPS_VARIANT),legacy)
 include $(call all-subdir-makefiles)
 endif
